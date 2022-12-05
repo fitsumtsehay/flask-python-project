@@ -9,6 +9,7 @@ app.config['MYSQL_USER'] = 'root'
 app.config['MYSQL_PASSWORD'] = '1awondmu'
 app.config['MYSQL_DB'] = 'crud'
 
+# app.config['CLEARDB_DATABASE_URL']: mysql://b94702d367220f:7eb7542e@us-cdbr-east-06.cleardb.net/heroku_fac056f3b74a8df?reconnect=true
 mysql = MySQL(app)
 
 @app.route('/')
