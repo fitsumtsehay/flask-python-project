@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def main():
-    return redirect(url_for('__init__'))
+    return redirect(url_for('index2.html'))
 
 if __name__ == '__main__':
     app.run()
