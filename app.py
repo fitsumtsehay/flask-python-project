@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():  # put application's code here
-    return render_template("index2.html")
+    return "__init__.py")
 
 if __name__ == '__main__':
     app.run()
