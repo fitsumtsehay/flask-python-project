@@ -1,6 +1,6 @@
 from flask import Flask
 app = Flask(__name__)
-import resources
+
 @app.route('/')
 def hello_world():  # put application's code here
     return 'Hello World!'
